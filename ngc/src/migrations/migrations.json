@@ -1,5 +1,5 @@
 {
-  "$schema": "../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "$schema": "../../../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
     "ngc-0-0-3": {
       "description": "Update Playwright to 0.14.1",
@@ -10,6 +10,11 @@
       "description": "Update Playwright to 0.14.2",
       "version": "0.0.4",
       "factory": "./v0_0_4/index"
+    },
+    "ngc-0-0-5": {
+      "description": "Update Playwright to 1.40",
+      "version": "0.0.5",
+      "factory": "./v0_0_5/index"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "ngc",
-  "version": "0.0.4",
+  "name": "@hahnekamp/ngc",
+  "version": "0.0.5",
   "description": "A blank schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -24,6 +24,6 @@
     "jasmine": "^5.0.0"
   },
   "ng-update": {
-    "migrations": "./migrations/migrations.json"
+    "migrations": "./src/migrations/migrations.json"
   }
 }
