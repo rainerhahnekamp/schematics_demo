@@ -32,7 +32,7 @@ export function updatePlaywright(tree: Tree, context: SchematicContext, version:
   const devDependencies = packageJson.devDependencies
   const allDependencies = {...dependencies, ...devDependencies};
 
-  if ('@playwright/test' in allDependencies) {
+  if ('@playwright/test' in allDependencies && allDependencies['@playwright/test'] === version) {
     return tree;
   }
 
