@@ -15,6 +15,11 @@
       "description": "Update Playwright to 1.40",
       "version": "0.0.5",
       "factory": "./v0_0_5/index"
+    },
+    "ngc-0-0-7": {
+      "description": "Update Playwright to 1.41",
+      "version": "0.0.7",
+      "factory": "./v0_0_7/index"
     }
   }
 }

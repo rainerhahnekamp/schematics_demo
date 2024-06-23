@@ -1,6 +1,6 @@
 {
   "name": "@hahnekamp/ngc",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A blank schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
