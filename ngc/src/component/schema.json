@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "SchmaticsComponent",
+  "title": "Component Schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the component to generate",
+      "x-prompt": "Name of your component:"
+    },
+    "path": {
+      "type": "string",
+      "description": "Path where to generate file"
+    },
+    "projectName": {
+      "type": "string",
+      "description": "Name of the project"
+    }
+  },
+  "required": ["name"]
+}
