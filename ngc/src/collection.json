@@ -9,6 +9,10 @@
       "description": "A blank schematic.",
       "factory": "./component/index#component",
       "schema": "./component/schema.json"
+    },
+    "ng-add": {
+      "description": "Install Playwright.",
+      "factory": "./ng-add/index#playwright"
     }
   }
 }
