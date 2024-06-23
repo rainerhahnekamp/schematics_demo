@@ -13,6 +13,10 @@
     "ng-add": {
       "description": "Install Playwright.",
       "factory": "./ng-add/index#playwright"
+    },
+    "rename-uppercase": {
+      "description": "A blank schematic.",
+      "factory": "./rename-uppercase/index#renameUppercase"
     }
   }
 }
