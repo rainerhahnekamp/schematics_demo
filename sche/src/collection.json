@@ -6,7 +6,7 @@
       "factory": "./component/index#component",
       "schema": "./component/schema.json"
     },
-    "playwright": {
+    "ng-add": {
       "description": "A blank schematic.",
       "factory": "./playwright/index#playwright"
     }

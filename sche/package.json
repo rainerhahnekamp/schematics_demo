@@ -1,9 +1,10 @@
 {
-  "name": "sche",
-  "version": "0.0.0",
+  "name": "@aa/sche",
+  "version": "0.0.2",
   "description": "A blank schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "deploy": "npm run build && npm publish --registry http://localhost:4873",
     "test": "npm run build && jasmine src/**/*_spec.js"
   },
   "keywords": [
@@ -21,5 +22,8 @@
     "@types/node": "^18.18.0",
     "@types/jasmine": "~5.1.0",
     "jasmine": "^5.0.0"
+  },
+  "ng-update": {
+    "migrations": "./src/migrations/migrations.json"
   }
 }
