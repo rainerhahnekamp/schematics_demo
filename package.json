@@ -10,7 +10,7 @@
   },
   "private": true,
   "dependencies": {
-    "@aa/sche": "^0.0.1",
+    "@aa/sche": "^0.0.2",
     "@angular-devkit/schematics-cli": "^18.0.5",
     "@angular/animations": "^18.0.0",
     "@angular/common": "^18.0.0",
@@ -36,6 +36,6 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.4.2",
-    "@playwright/test": "1.40"
+    "@playwright/test": "1.41"
   }
 }
