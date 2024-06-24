@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "SchmaticsComponent",
+  "title": "Component Schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the component to generate",
+      "x-prompt": "Please provide the name of the component to generate:"
+    }
+  },
+  "required": ["name"]
+}
